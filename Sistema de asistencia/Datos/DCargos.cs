@@ -44,7 +44,7 @@ namespace Sistema_de_asistencia.Datos
 				SqlCommand cmd = new SqlCommand("editarCargo", Conecxion.con);
 				cmd.CommandType = CommandType.StoredProcedure;
 				cmd.Parameters.AddWithValue("@id", parametros.Id_cargos);
-				cmd.Parameters.AddWithValue("@Cargo", parametros.Cargos);
+				cmd.Parameters.AddWithValue("@Cargos", parametros.Cargos);
 				cmd.Parameters.AddWithValue("@Sueldo", parametros.SueldoPorHora);
 				cmd.ExecuteNonQuery();
 				return true;

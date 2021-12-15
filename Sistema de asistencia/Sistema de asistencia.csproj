@@ -49,6 +49,7 @@
     <Compile Include="Datos\Conecxion.cs" />
     <Compile Include="Datos\DatosPersonal.cs" />
     <Compile Include="Datos\DCargos.cs" />
+    <Compile Include="Logica\Bases.cs" />
     <Compile Include="Logica\LogicaCargos.cs" />
     <Compile Include="Logica\LogicaPersonal.cs" />
     <Compile Include="Presentacion\MenuPrincipal.cs">
@@ -94,7 +95,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\lapiz.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\reloj.png" />
   </ItemGroup>
@@ -127,6 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hacia-atras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerca.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

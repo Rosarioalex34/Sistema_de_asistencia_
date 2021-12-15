@@ -10,7 +10,7 @@ namespace Sistema_de_asistencia.Datos
 {
     public class Conecxion
     {
-        public static string conexion = @"Data source =DESKTOP-NDJCG0S; Initial Catalog=OrusAssitence; Integrate Security=true";
+        public static string conexion = @"Data source =DESKTOP-NDJCG0S; Initial Catalog=OrusAssitence; Integrated Security=true";
         public static SqlConnection con = new SqlConnection(conexion); 
 
         public static void abrir()
