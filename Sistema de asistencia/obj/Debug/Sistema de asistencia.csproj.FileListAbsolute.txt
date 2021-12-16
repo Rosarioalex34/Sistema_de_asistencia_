@@ -9,3 +9,4 @@ C:\Users\hiero\Documents\Sistema de asistencia c#\Sistema de asistencia\Sistema 
 C:\Users\hiero\Documents\Sistema de asistencia c#\Sistema de asistencia\Sistema de asistencia\obj\Debug\Sistema de asistencia.pdb
 C:\Users\hiero\Documents\Sistema de asistencia c#\Sistema de asistencia\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.MenuPrincipal.resources
 C:\Users\hiero\Documents\Sistema de asistencia c#\Sistema de asistencia\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.Personal.resources
+C:\Users\hiero\Documents\Sistema de asistencia c#\Sistema de asistencia\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.TomarAsistencias.resources

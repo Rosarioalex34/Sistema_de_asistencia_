@@ -22,7 +22,7 @@ namespace Sistema_de_asistencia.Presentacion
         int IdCargos =0;
         int desde = 1;
         int hasta = 10;
-        int contador;
+        int Contador;
         int Idpersonal;
         private int Items_por_pagina = 10;
         string Estado;
@@ -40,19 +40,16 @@ namespace Sistema_de_asistencia.Presentacion
             Limpiar();
         }
         
-        #region Localizacion del datalistaCargos
+        //Localizacion del datalistaCargos
         private void LocalizarDtvCargos()
         {
             datalistadoCargos.Location = new Point(txtSueldoPorHora.Location.X, txtSueldoPorHora.Location.Y);
-            datalistadoCargos.Size = new Size(400, 141);
+            datalistadoCargos.Size = new Size(469, 141);
             datalistadoCargos.Visible = true;
             lblSueldoPorHora.Visible = false;
             PanelBtnGuardarPersonal.Visible = false;
         }
-        #endregion
-
-        #region Metodo para la limpieza de los campos
-
+        //Metodo para la limpieza de los campos
         public void Limpiar()
         {
             txtNombres.Clear();
@@ -62,7 +59,7 @@ namespace Sistema_de_asistencia.Presentacion
             BuscarCargos();
            
         }
-        #endregion
+        //Validaciones del boton guardar personal
         private void btnGuardarPersonal_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txtNombres.Text))
@@ -82,8 +79,7 @@ namespace Sistema_de_asistencia.Presentacion
                 }
             }
         }
-
-        #region Metodo Insertar Personal
+        //Metodo Insertar Personal
         private void InsertarPersonal()
         {
             LogicaPersonal parametros = new LogicaPersonal();
@@ -95,13 +91,12 @@ namespace Sistema_de_asistencia.Presentacion
             parametros.SueldoPorHoras = Convert.ToDouble(txtSueldoPorHora.Text);
             if (funcion.InsertarPersonal(parametros) == true)
             {
+                ReiniciarPaginado();
                 MostrarPersonal();
                 PanelRegistros.Visible = false;
             }
         
         }
-        #endregion
-
         private void MostrarPersonal()
         {
             DataTable dt = new DataTable();
@@ -110,16 +105,16 @@ namespace Sistema_de_asistencia.Presentacion
             dataListadoPersonal.DataSource = dt;
             DiseñarDtvPersonal();
         }
-
+        //llamado del diseño del datalistadopersonal desde bases 
         private void DiseñarDtvPersonal()
         {
             Bases.DiseñoDtv(ref dataListadoPersonal);
+            Bases.DiseñoDtvEliminar(ref dataListadoPersonal);
             PanelPaginado.Visible = true;
             dataListadoPersonal.Columns[2].Visible = false;
             dataListadoPersonal.Columns[7].Visible = false;
         }
-
-        #region Metodo Insertar Cargos
+        //Metodo Insertar Cargos
         private void InsertarCargos()
         {
             if(!string.IsNullOrEmpty(txtCargosP.Text))
@@ -148,9 +143,7 @@ namespace Sistema_de_asistencia.Presentacion
             }
             
         }
-        #endregion
-
-        #region Metodo Buscar Cargos
+        //Metodo Buscar Cargos
         private void BuscarCargos()
         {
             DataTable dt = new DataTable();
@@ -161,18 +154,15 @@ namespace Sistema_de_asistencia.Presentacion
             datalistadoCargos.Columns[1].Visible = false;
             datalistadoCargos.Columns[3].Visible = false;
         }
-        #endregion
-
         private void PanelRegistros_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
+        //para mostrar los cargos que ya estan registrados 
         private void txtCargos_TextChanged(object sender, EventArgs e)
         {
             BuscarCargos();
         }
-
         private void btnAgregarCargo_Click(object sender, EventArgs e)
         {
             panelCargos.Visible = true;
@@ -183,22 +173,22 @@ namespace Sistema_de_asistencia.Presentacion
             txtCargosP.Clear();
             txtSueldoPorHoraP.Clear();
         }
-        #region Boton de guardar del panel de cargos
+        //Boton de guardar del panel de cargos
         private void btnGuardarP_Click(object sender, EventArgs e)
         {
             InsertarCargos();
         }
-        #endregion
+        //llamada del metodo decimales desde bases pata validacionde parametros del texbox Cargos del datalistadocargos
         private void txtSueldoporhoraP_KeyPress(object sender, KeyPressEventArgs e)
         {
             Bases.Decimales(txtCargosP, e);
         }
-
+        //llamada del metodo decimales desde bases pata validacionde parametros del texbox Sueldoporhora 
         private void txtSueldoPorHora_KeyPress(object sender, KeyPressEventArgs e)
         {
             Bases.Decimales(txtSueldoPorHora, e);
         }
-
+        //Metodo para agregar los cargos al datagridcargos
         private void datalistadoCargos_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.ColumnIndex == datalistadoCargos.Columns["Editar"].Index)
@@ -210,7 +200,7 @@ namespace Sistema_de_asistencia.Presentacion
                 ObtenerDatosCargos();
             }
         }
-        #region Metodo para Obtener ls datos
+        // Metodo para Obtener ls datos
         private void ObtenerDatosCargos()
         {
             IdCargos = Convert.ToInt32(datalistadoCargos.SelectedCells[1].Value);
@@ -220,9 +210,7 @@ namespace Sistema_de_asistencia.Presentacion
             PanelBtnGuardarPersonal.Visible = true;
             lblSueldoPorHora.Visible = true;
         }
-        #endregion
-
-        #region Metodo para editar los datos
+        //Metodo para editar los datos
         private void EditarCargo()
         {
             IdCargos = Convert.ToInt32(datalistadoCargos.SelectedCells[1].Value);
@@ -236,24 +224,20 @@ namespace Sistema_de_asistencia.Presentacion
             panelCargos.Dock = DockStyle.Fill;
             panelCargos.BringToFront();
         }
-        #endregion
-
         private void btnVolverCargos_Click(object sender, EventArgs e)
         {
             panelCargos.Visible = false;
         }
-
         private void btnVolverPersonal_Click(object sender, EventArgs e)
         {
             PanelRegistros.Visible = false;
         }
-
+        //boton de guardar los cambios editados de un cargo 
         private void btnGuardarCambiosP_Click(object sender, EventArgs e)
         {
             EditarCargosPersonal();
         }     
-
-        #region Metodo para editar los cargos 
+        //Metodo para editar los cargos 
         private void EditarCargosPersonal()
         {
             LogicaCargos parametros = new LogicaCargos();
@@ -268,14 +252,38 @@ namespace Sistema_de_asistencia.Presentacion
                 panelCargos.Visible = false;
             }
         }
-        #endregion
-
+        //Contenido del formulario personal al abrirlo 
         private void Personal_Load(object sender, EventArgs e)
         {
-            MostrarPersonal();
-            
+            ReiniciarPaginado();
+            MostrarPersonal(); 
         }
+        //Funcion para iniciar el paginado 
+        private void ReiniciarPaginado()
+        {
+            desde = 1;
+            hasta = 10;
+            Contar();
 
+            if (Contador > hasta)
+            {
+
+                btnPaginaSiguiente.Visible = true;
+                btnPaginaAnterior.Visible = false;
+                btnUltimaPagina.Visible = true;
+                btnPrimeraPagina.Visible = true;
+            }
+            else
+            {
+
+                btnPaginaSiguiente.Visible = false;
+                btnPaginaAnterior.Visible = false;
+                btnUltimaPagina.Visible = false;
+                btnPrimeraPagina.Visible = false;
+            }
+            Paginar();
+        }
+        //Botonoes de eliminar y editar del datalistadopersonal
         private void dataListadoPersonal_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.ColumnIndex == dataListadoPersonal.Columns["Eliminar"].Index)
@@ -292,7 +300,7 @@ namespace Sistema_de_asistencia.Presentacion
                 ObtenerDatos();
             }
         }
-
+        //Metodo para poner Estado ACTIVO al personal registrado o eliminarlo
         private void ObtenerDatos()
         {
             Idpersonal = Convert.ToInt32(dataListadoPersonal.SelectedCells[2].Value);
@@ -303,6 +311,7 @@ namespace Sistema_de_asistencia.Presentacion
             }
             else
             {
+                LocalizarDtvCargos();
                 txtNombres.Text = dataListadoPersonal.SelectedCells[3].Value.ToString();
                 txtIdentificacion.Text = dataListadoPersonal.SelectedCells[4].Value.ToString();
                 cbxPais.Text = dataListadoPersonal.SelectedCells[10].Value.ToString();
@@ -322,10 +331,27 @@ namespace Sistema_de_asistencia.Presentacion
             }
 
         }
+        //Metodo para restaurar o cambiar el estado a ACTIVO de personal
         private void RestaurarPersonal()
         {
-
+            DialogResult result = MessageBox.Show("¿Este personal se elimino, desar volver a habilitarlo?", "Restauracion de registro", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.OK)
+            {
+                HabilitarPersonal();
+            }
         }
+        //Metodo para 
+        private void HabilitarPersonal()
+        {
+            LogicaPersonal parametros = new LogicaPersonal();
+            DatosPersonal funcion = new DatosPersonal();
+            parametros.Id_personal = Idpersonal;
+            if (funcion.Restaurar_Personal(parametros)==true)
+            {
+                MostrarPersonal();
+            }
+        }
+        //Metodo para eliminar personal
         private void EliminarPersonal()
         {
             Idpersonal = Convert.ToInt32(dataListadoPersonal.SelectedCells[2].Value);
@@ -337,5 +363,141 @@ namespace Sistema_de_asistencia.Presentacion
                 MostrarPersonal();
             }
         }
+        //Timer para que se vean los eliminado al actualizar el datagridpersonal
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DiseñarDtvPersonal();
+            timer1.Enabled = false;
+        }
+        //Boton editar personal o guardar le edicion de un personal
+        private void btnGuardarCambioPersonal_Click(object sender, EventArgs e)
+        {
+            EditarPersonal();
+        }
+        //Medoto de guardar la edicion de un personal
+        private void EditarPersonal()
+        {
+            LogicaPersonal parametros = new LogicaPersonal();
+            DatosPersonal funcion = new DatosPersonal();
+            parametros.Id_personal = Idpersonal;
+            parametros.Nombres = txtNombres.Text;
+            parametros.Identificacion = txtIdentificacion.Text;
+            parametros.Pais = cbxPais.Text;
+            parametros.Id_cargos = IdCargos;
+            parametros.SueldoPorHoras = Convert.ToDouble(txtSueldoPorHora.Text);
+            if (funcion.EditarPersonal(parametros) == true)
+            {
+                MostrarPersonal();
+                PanelRegistros.Visible=false;
+            }
+        }
+        #region PAGINADO
+        private void btnPaginaSiguiente_Click(object sender, EventArgs e)
+        {
+            desde += 10;
+            hasta += 10;
+            MostrarPersonal();
+            Contar();
+            if (Contador > hasta)
+            {
+                btnPaginaSiguiente.Visible = true;
+                btnPaginaAnterior.Visible = true;
+            }
+            else
+            {
+                btnPaginaSiguiente.Visible = false;
+                btnPaginaAnterior.Visible = true;
+            }
+            Paginar();
+
+        }
+        private void Paginar()
+        {
+            try
+            {
+                lblPagina.Text = (hasta / Items_por_pagina).ToString();
+                lblTotalPaginas.Text = Math.Ceiling(Convert.ToSingle(Contador) / Items_por_pagina).ToString();
+                TotalPaginas = Convert.ToInt32(lblTotalPaginas.Text);
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+        //metodo para el paginado
+        private void Contar()
+        {
+            DatosPersonal funcion = new DatosPersonal();
+            funcion.ContarPersonal(ref Contador);
+        }
+        private void btnPaginaAnterior_Click(object sender, EventArgs e)
+        {
+            desde -= 10;
+            hasta -= 10;
+            MostrarPersonal();
+            Contar();
+            if (Contador > hasta)
+            {
+                btnPaginaSiguiente.Visible = true;
+                btnPaginaAnterior.Visible = true;
+            }
+            else
+            {
+                btnPaginaSiguiente.Visible = false;
+                btnPaginaAnterior.Visible = true;
+            }
+            if (desde == 1)
+            {
+                ReiniciarPaginado();
+            }
+            Paginar();
+        }
+        private void btnUltimaPagina_Click(object sender, EventArgs e)
+        {
+            hasta = TotalPaginas * Items_por_pagina;
+            desde = hasta - 9;
+            MostrarPersonal();
+            Contar();
+             
+            if (Contador > hasta)
+            {
+                btnPaginaSiguiente.Visible = true;
+                btnPaginaAnterior.Visible = true;
+            }
+            else
+            {
+                btnPaginaSiguiente.Visible = false;
+                btnPaginaAnterior.Visible = true;
+            }
+            Paginar();
+        }
+
+        private void btnPrimeraPagina_Click(object sender, EventArgs e)
+        {
+            ReiniciarPaginado();
+            MostrarPersonal();
+        }
+        #endregion
+
+        #region BUSCADOR
+        private void txtBuscador_TextChanged(object sender, EventArgs e)
+        {
+            BuscarPersonal();
+        }
+        private void BuscarPersonal()
+        {
+            DataTable dt = new DataTable();
+            DatosPersonal funcion = new DatosPersonal();
+            funcion.BuscarPersonal(ref dt, desde,hasta, txtBuscador.Text);
+            dataListadoPersonal.DataSource = dt;
+            DiseñarDtvPersonal();
+        }
+       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ReiniciarPaginado();
+            MostrarPersonal();
+        }
+        #endregion
     }
 }

@@ -130,6 +130,67 @@ namespace Sistema_de_asistencia.Datos
                 Conecxion.cerrar();
             }
         }
+        public void BuscarPersonalIdentidad(ref DataTable dt, string buscador)
+        {
+            try
+            {
+                Conecxion.abrir();
+                SqlDataAdapter da = new SqlDataAdapter("BuscarPersonalIdentidad", Conecxion.con);
+                da.SelectCommand.CommandType = CommandType.StoredProcedure; 
+                da.SelectCommand.Parameters.AddWithValue("@Buscador", buscador);
+                da.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.StackTrace);
+            }
+            finally
+            {
+                Conecxion.cerrar();
+            }
+        }
+        
+        public bool Restaurar_Personal(LogicaPersonal parametros)
+        {
+            try
+            {
+                Conecxion.abrir();
+                SqlCommand com = new SqlCommand("Restaurar_Personal ", Conecxion.con);
+                com.CommandType = CommandType.StoredProcedure;
+                com.Parameters.AddWithValue("@Idpersonal", parametros.Id_personal);
+                com.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+            finally
+            {
+                Conecxion.cerrar();
+            }
+        }
+        public void ContarPersonal(ref int Contador)
+        {
+            try
+            {
+                Conecxion.abrir();
+                SqlCommand cmd = new SqlCommand("select Count (Id_personal) from Personal",Conecxion.con);
+                Contador = Convert.ToInt32(cmd.ExecuteScalar());
+            }
+            catch (Exception)
+            {
+
+                Contador = 0;
+            }
+            finally
+            {
+                Conecxion.cerrar();
+            }
+        }
 
 
 
