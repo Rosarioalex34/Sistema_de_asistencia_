@@ -78,7 +78,7 @@ namespace Sistema_de_asistencia.Logica
             }
             return null;
         }
-
+        //lista de tiempos 
         public enum DateInterval
         {
             Day,
@@ -92,6 +92,7 @@ namespace Sistema_de_asistencia.Logica
             WeekOfYear,
             Year 
         }
+        //Calculo de horas trabajadas 
         public static long DateDiff(DateInterval IntervalType, DateTime dateOne, DateTime dateTwo)
         {
             switch (IntervalType)

@@ -121,17 +121,29 @@
   <data name="naranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\naranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="avatar (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatar (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="archivo-de-respaldo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\archivo-de-respaldo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grupo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grupo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="perfil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perfil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="historia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\historia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MonoOrus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MonoOrus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rosa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\azul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detective" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detective.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="buscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\buscar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,11 +157,23 @@
   <data name="mas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="usuario (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="super-nintendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\super-nintendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cerca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cerca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grupo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grupo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hacia-atras" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hacia-atras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,13 +181,16 @@
   <data name="cohete" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cohete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\azul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="verde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="historia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\historia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rosa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rosa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="futbol-americano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\futbol-americano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agregar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agregar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

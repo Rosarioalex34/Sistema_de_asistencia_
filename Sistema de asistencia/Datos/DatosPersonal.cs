@@ -150,7 +150,6 @@ namespace Sistema_de_asistencia.Datos
                 Conecxion.cerrar();
             }
         }
-        
         public bool Restaurar_Personal(LogicaPersonal parametros)
         {
             try

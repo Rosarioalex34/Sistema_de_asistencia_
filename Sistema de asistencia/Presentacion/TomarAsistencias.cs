@@ -22,9 +22,7 @@ namespace Sistema_de_asistencia.Presentacion
         string Identificacion;
         int IdPersonal;
         int Contador;
-        DateTime Fecharegistro;
-
-        
+        DateTime Fecharegistro;       
         //Hora y fecha
         private void timerHora_Tick(object sender, EventArgs e)
         {
@@ -63,7 +61,6 @@ namespace Sistema_de_asistencia.Presentacion
                 }
             }
         }
-
         private void ConfirmarSalida()
         {
             LogicaAsistencias parametros = new LogicaAsistencias();
@@ -124,7 +121,6 @@ namespace Sistema_de_asistencia.Presentacion
             }
 
         }
-
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
             InsertarAsistencias();

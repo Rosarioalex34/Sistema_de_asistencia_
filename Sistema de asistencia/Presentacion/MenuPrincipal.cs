@@ -31,5 +31,19 @@ namespace Sistema_de_asistencia.Presentacion
                 
                 
         }
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            TomarAsistencias asistencias = new TomarAsistencias();
+            asistencias.Show();           
+            asistencias.Dock = DockStyle.Fill;
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            PanelPadre.Controls.Clear();
+            ControlUsuarios control = new ControlUsuarios();
+            control.Dock = DockStyle.Fill;
+            PanelPadre.Controls.Add(control);
+        }
     }
 }

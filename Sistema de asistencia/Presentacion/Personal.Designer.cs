@@ -34,6 +34,7 @@ namespace Sistema_de_asistencia.Presentacion
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnMostrarTodos = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -87,7 +88,6 @@ namespace Sistema_de_asistencia.Presentacion
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.btnMostrarTodos = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataListadoPersonal)).BeginInit();
@@ -112,6 +112,22 @@ namespace Sistema_de_asistencia.Presentacion
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1130, 66);
             this.panel1.TabIndex = 0;
+            // 
+            // btnMostrarTodos
+            // 
+            this.btnMostrarTodos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMostrarTodos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMostrarTodos.FlatAppearance.BorderSize = 0;
+            this.btnMostrarTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMostrarTodos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrarTodos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMostrarTodos.Location = new System.Drawing.Point(428, 21);
+            this.btnMostrarTodos.Name = "btnMostrarTodos";
+            this.btnMostrarTodos.Size = new System.Drawing.Size(120, 29);
+            this.btnMostrarTodos.TabIndex = 4;
+            this.btnMostrarTodos.Text = "Mostrar todos";
+            this.btnMostrarTodos.UseVisualStyleBackColor = true;
+            this.btnMostrarTodos.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnAgregar
             // 
@@ -586,7 +602,7 @@ namespace Sistema_de_asistencia.Presentacion
             this.btnGuardarPersonal.ForeColor = System.Drawing.Color.White;
             this.btnGuardarPersonal.Location = new System.Drawing.Point(3, 3);
             this.btnGuardarPersonal.Name = "btnGuardarPersonal";
-            this.btnGuardarPersonal.Size = new System.Drawing.Size(104, 38);
+            this.btnGuardarPersonal.Size = new System.Drawing.Size(104, 48);
             this.btnGuardarPersonal.TabIndex = 0;
             this.btnGuardarPersonal.Text = "Guardar";
             this.btnGuardarPersonal.UseVisualStyleBackColor = true;
@@ -604,7 +620,7 @@ namespace Sistema_de_asistencia.Presentacion
             this.btnGuardarCambioPersonal.ForeColor = System.Drawing.Color.White;
             this.btnGuardarCambioPersonal.Location = new System.Drawing.Point(113, 3);
             this.btnGuardarCambioPersonal.Name = "btnGuardarCambioPersonal";
-            this.btnGuardarCambioPersonal.Size = new System.Drawing.Size(104, 38);
+            this.btnGuardarCambioPersonal.Size = new System.Drawing.Size(104, 48);
             this.btnGuardarCambioPersonal.TabIndex = 1;
             this.btnGuardarCambioPersonal.Text = "Guardar*";
             this.btnGuardarCambioPersonal.UseVisualStyleBackColor = true;
@@ -853,22 +869,6 @@ namespace Sistema_de_asistencia.Presentacion
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // btnMostrarTodos
-            // 
-            this.btnMostrarTodos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMostrarTodos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMostrarTodos.FlatAppearance.BorderSize = 0;
-            this.btnMostrarTodos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMostrarTodos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrarTodos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnMostrarTodos.Location = new System.Drawing.Point(428, 21);
-            this.btnMostrarTodos.Name = "btnMostrarTodos";
-            this.btnMostrarTodos.Size = new System.Drawing.Size(120, 29);
-            this.btnMostrarTodos.TabIndex = 4;
-            this.btnMostrarTodos.Text = "Mostrar todos";
-            this.btnMostrarTodos.UseVisualStyleBackColor = true;
-            this.btnMostrarTodos.Click += new System.EventHandler(this.button1_Click);
             // 
             // Personal
             // 

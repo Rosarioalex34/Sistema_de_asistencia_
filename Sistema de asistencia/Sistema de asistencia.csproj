@@ -48,12 +48,24 @@
   <ItemGroup>
     <Compile Include="Datos\Conecxion.cs" />
     <Compile Include="Datos\DatosAsistencias.cs" />
+    <Compile Include="Datos\DatosModulos.cs" />
+    <Compile Include="Datos\DatosPermisos.cs" />
     <Compile Include="Datos\DatosPersonal.cs" />
+    <Compile Include="Datos\DatosUsuarios.cs" />
     <Compile Include="Datos\DCargos.cs" />
     <Compile Include="Logica\Bases.cs" />
     <Compile Include="Logica\LogicaAsistencias.cs" />
     <Compile Include="Logica\LogicaCargos.cs" />
+    <Compile Include="Logica\LogicaModulos.cs" />
+    <Compile Include="Logica\LogicaPermisos.cs" />
     <Compile Include="Logica\LogicaPersonal.cs" />
+    <Compile Include="Logica\LogicaUsuarios.cs" />
+    <Compile Include="Presentacion\ControlUsuarios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentacion\ControlUsuarios.Designer.cs">
+      <DependentUpon>ControlUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +86,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentacion\ControlUsuarios.resx">
+      <DependentUpon>ControlUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +168,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\rosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detective.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\super-nintendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\futbol-americano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
