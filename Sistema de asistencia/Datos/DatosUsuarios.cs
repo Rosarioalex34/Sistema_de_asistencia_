@@ -58,5 +58,25 @@ namespace Sistema_de_asistencia.Datos
                 Conecxion.cerrar();
             }
         }
+        public void ObtenerIdUsuario(ref int IdUsuarios, string Login)
+        {
+            try
+            {
+                Conecxion.abrir();
+                SqlCommand cmd = new SqlCommand("ObtenerIdUsuario", Conecxion.con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Login", Login);
+                IdUsuarios = Convert.ToInt32(cmd.ExecuteScalar());
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.StackTrace);
+            }
+            finally
+            {
+                Conecxion.cerrar();
+            }
+        }
     }
 }

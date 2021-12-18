@@ -499,5 +499,10 @@ namespace Sistema_de_asistencia.Presentacion
             MostrarPersonal();
         }
         #endregion
+
+        private void PanelPaginado_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
     }
 }

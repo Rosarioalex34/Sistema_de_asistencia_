@@ -27,7 +27,7 @@ namespace Sistema_de_asistencia.Datos
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.StackTrace);
+                MessageBox.Show(ex.Message);
                 return false;
                 
             }

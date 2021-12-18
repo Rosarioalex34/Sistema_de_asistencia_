@@ -256,6 +256,7 @@ namespace Sistema_de_asistencia.Presentacion
             this.PanelPaginado.Name = "PanelPaginado";
             this.PanelPaginado.Size = new System.Drawing.Size(1130, 65);
             this.PanelPaginado.TabIndex = 2;
+            this.PanelPaginado.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelPaginado_Paint);
             // 
             // btnPaginaSiguiente
             // 
