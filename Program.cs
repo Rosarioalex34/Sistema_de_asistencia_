@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace ORUSCURSO
+namespace Sistema_de_asistencia
 {
     static class Program
     {

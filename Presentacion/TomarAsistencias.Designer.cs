@@ -1,4 +1,4 @@
-﻿namespace ORUSCURSO.Presentacion
+﻿namespace Sistema_de_asistencia.Presentacion
 {
     partial class TomarAsistencias
     {
@@ -104,7 +104,7 @@
             // BtnIniciarSesion
             // 
             this.BtnIniciarSesion.BackColor = System.Drawing.Color.Transparent;
-            this.BtnIniciarSesion.BackgroundImage = global::ORUSCURSO.Properties.Resources.naranja;
+            this.BtnIniciarSesion.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.naranja;
             this.BtnIniciarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnIniciarSesion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnIniciarSesion.FlatAppearance.BorderSize = 0;
@@ -480,7 +480,7 @@
             // PictureBox2
             // 
             this.PictureBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PictureBox2.Image = global::ORUSCURSO.Properties.Resources.MonoOrus1;
+            this.PictureBox2.Image = global::Sistema_de_asistencia.Properties.Resources.MonoOrus1;
             this.PictureBox2.Location = new System.Drawing.Point(0, 0);
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.Size = new System.Drawing.Size(599, 228);
@@ -502,7 +502,7 @@
             // btnConfirmar
             // 
             this.btnConfirmar.BackColor = System.Drawing.Color.Transparent;
-            this.btnConfirmar.BackgroundImage = global::ORUSCURSO.Properties.Resources.azul;
+            this.btnConfirmar.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.azul;
             this.btnConfirmar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnConfirmar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnConfirmar.FlatAppearance.BorderSize = 0;

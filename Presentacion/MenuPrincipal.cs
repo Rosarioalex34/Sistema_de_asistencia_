@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ORUSCURSO.Presentacion
+namespace Sistema_de_asistencia.Presentacion
 {
     public partial class MenuPrincipal : Form
     {

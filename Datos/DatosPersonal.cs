@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
-using ORUSCURSO.Logica;
+using Sistema_de_asistencia.Logica;
 using System.Windows.Forms;
-namespace ORUSCURSO.Datos
+namespace Sistema_de_asistencia.Datos
 {
    public  class DatosPersonal
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ORUSCURSO.Logica
+namespace Sistema_de_asistencia.Logica
 {
     public class LogicaCargos
     {

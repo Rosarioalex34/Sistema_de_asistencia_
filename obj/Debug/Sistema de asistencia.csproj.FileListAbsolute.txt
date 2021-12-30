@@ -58,3 +58,18 @@ C:\Users\hiero\Desktop\pa modificar\obj\Debug\Sistema de asistencia.csproj.Gener
 C:\Users\hiero\Desktop\pa modificar\obj\Debug\Sistema de asistencia.csproj.CoreCompileInputs.cache
 C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.exe
 C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.pdb
+C:\Users\hiero\Desktop\Sistema de asistencia\bin\Debug\Sistema_de_asistencia.exe
+C:\Users\hiero\Desktop\Sistema de asistencia\bin\Debug\Sistema_de_asistencia.pdb
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema de asistencia.csproj.AssemblyReference.cache
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.AsistenteInstalacion.ElecccionServidor.resources
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.AsistenteInstalacion.InstalacionBd.resources
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.ControlUsuarios.resources
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.Login.resources
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.MenuPrincipal.resources
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.Personal.resources
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Presentacion.TomarAsistencias.resources
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.Properties.Resources.resources
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema de asistencia.csproj.GenerateResource.cache
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema de asistencia.csproj.CoreCompileInputs.cache
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.exe
+C:\Users\hiero\Desktop\Sistema de asistencia\obj\Debug\Sistema_de_asistencia.pdb

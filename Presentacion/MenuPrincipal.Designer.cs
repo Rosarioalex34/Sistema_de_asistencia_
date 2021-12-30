@@ -1,4 +1,4 @@
-﻿namespace ORUSCURSO.Presentacion
+﻿namespace Sistema_de_asistencia.Presentacion
 {
     partial class MenuPrincipal
     {
@@ -310,7 +310,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::ORUSCURSO.Properties.Resources.MonoOrus;
+            this.pictureBox1.Image = global::Sistema_de_asistencia.Properties.Resources.MonoOrus;
             this.pictureBox1.Location = new System.Drawing.Point(0, 10);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(165, 70);
@@ -321,13 +321,13 @@
             // btnEstaciones
             // 
             this.btnEstaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
-            this.btnEstaciones.BackgroundImage = global::ORUSCURSO.Properties.Resources.naranja;
+            this.btnEstaciones.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.naranja;
             this.btnEstaciones.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnEstaciones.FlatAppearance.BorderSize = 0;
             this.btnEstaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstaciones.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEstaciones.ForeColor = System.Drawing.Color.White;
-            this.btnEstaciones.Image = global::ORUSCURSO.Properties.Resources.cohete;
+            this.btnEstaciones.Image = global::Sistema_de_asistencia.Properties.Resources.cohete;
             this.btnEstaciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEstaciones.Location = new System.Drawing.Point(0, 10);
             this.btnEstaciones.Name = "btnEstaciones";
@@ -340,13 +340,13 @@
             // btnRespaldos
             // 
             this.btnRespaldos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
-            this.btnRespaldos.BackgroundImage = global::ORUSCURSO.Properties.Resources.naranja;
+            this.btnRespaldos.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.naranja;
             this.btnRespaldos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnRespaldos.FlatAppearance.BorderSize = 0;
             this.btnRespaldos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRespaldos.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRespaldos.ForeColor = System.Drawing.Color.White;
-            this.btnRespaldos.Image = global::ORUSCURSO.Properties.Resources.archivo_de_respaldo;
+            this.btnRespaldos.Image = global::Sistema_de_asistencia.Properties.Resources.archivo_de_respaldo;
             this.btnRespaldos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRespaldos.Location = new System.Drawing.Point(0, 10);
             this.btnRespaldos.Name = "btnRespaldos";
@@ -359,13 +359,13 @@
             // btnRestaurar
             // 
             this.btnRestaurar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
-            this.btnRestaurar.BackgroundImage = global::ORUSCURSO.Properties.Resources.naranja;
+            this.btnRestaurar.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.naranja;
             this.btnRestaurar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnRestaurar.FlatAppearance.BorderSize = 0;
             this.btnRestaurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRestaurar.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestaurar.ForeColor = System.Drawing.Color.White;
-            this.btnRestaurar.Image = global::ORUSCURSO.Properties.Resources.historia;
+            this.btnRestaurar.Image = global::Sistema_de_asistencia.Properties.Resources.historia;
             this.btnRestaurar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRestaurar.Location = new System.Drawing.Point(0, 10);
             this.btnRestaurar.Name = "btnRestaurar";
@@ -378,13 +378,13 @@
             // btnUsuarios
             // 
             this.btnUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
-            this.btnUsuarios.BackgroundImage = global::ORUSCURSO.Properties.Resources.naranja;
+            this.btnUsuarios.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.naranja;
             this.btnUsuarios.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnUsuarios.FlatAppearance.BorderSize = 0;
             this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUsuarios.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btnUsuarios.Image = global::ORUSCURSO.Properties.Resources.grupo__1_;
+            this.btnUsuarios.Image = global::Sistema_de_asistencia.Properties.Resources.grupo__1_;
             this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUsuarios.Location = new System.Drawing.Point(0, 10);
             this.btnUsuarios.Name = "btnUsuarios";
@@ -398,13 +398,13 @@
             // btnRegistro
             // 
             this.btnRegistro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
-            this.btnRegistro.BackgroundImage = global::ORUSCURSO.Properties.Resources.naranja;
+            this.btnRegistro.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.naranja;
             this.btnRegistro.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnRegistro.FlatAppearance.BorderSize = 0;
             this.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistro.Font = new System.Drawing.Font("Comic Sans MS", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistro.ForeColor = System.Drawing.Color.White;
-            this.btnRegistro.Image = global::ORUSCURSO.Properties.Resources.reloj;
+            this.btnRegistro.Image = global::Sistema_de_asistencia.Properties.Resources.reloj;
             this.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistro.Location = new System.Drawing.Point(0, 10);
             this.btnRegistro.Name = "btnRegistro";

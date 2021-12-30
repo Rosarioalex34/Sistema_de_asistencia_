@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
-namespace ORUSCURSO.Logica
+namespace Sistema_de_asistencia.Logica
 {
     public  class Bases
     {

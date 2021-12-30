@@ -1,4 +1,4 @@
-﻿namespace ORUSCURSO.Presentacion.AsistenteInstalacion
+﻿namespace Sistema_de_asistencia.Presentacion.AsistenteInstalacion
 {
     partial class ElecccionServidor
     {
@@ -71,7 +71,7 @@
             // 
             // PictureBox7
             // 
-            this.PictureBox7.Image = global::ORUSCURSO.Properties.Resources.MonoOrus2;
+            this.PictureBox7.Image = global::Sistema_de_asistencia.Properties.Resources.MonoOrus2;
             this.PictureBox7.Location = new System.Drawing.Point(110, 8);
             this.PictureBox7.Name = "PictureBox7";
             this.PictureBox7.Size = new System.Drawing.Size(71, 75);

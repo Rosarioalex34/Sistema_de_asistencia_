@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ORUSCURSO.Presentacion.AsistenteInstalacion
+namespace Sistema_de_asistencia.Presentacion.AsistenteInstalacion
 {
     public partial class ConexionRemota : Form
     {

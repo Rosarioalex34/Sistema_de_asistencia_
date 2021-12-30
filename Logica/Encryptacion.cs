@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace ORUSCURSO.Logica
+namespace Sistema_de_asistencia.Logica
 {
     class AES
     {

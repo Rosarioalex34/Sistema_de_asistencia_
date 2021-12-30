@@ -1,5 +1,5 @@
-﻿using ORUSCURSO.Datos;
-using ORUSCURSO.Logica;
+﻿using Sistema_de_asistencia.Datos;
+using Sistema_de_asistencia.Logica;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ORUSCURSO.Presentacion
+namespace Sistema_de_asistencia.Presentacion
 {
     public partial class TomarAsistencias : Form
     {

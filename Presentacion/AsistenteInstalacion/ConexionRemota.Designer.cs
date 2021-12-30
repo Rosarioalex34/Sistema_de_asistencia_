@@ -1,4 +1,4 @@
-﻿namespace ORUSCURSO.Presentacion.AsistenteInstalacion
+﻿namespace Sistema_de_asistencia.Presentacion.AsistenteInstalacion
 {
     partial class ConexionRemota
     {

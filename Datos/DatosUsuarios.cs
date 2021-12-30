@@ -5,8 +5,8 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
-using ORUSCURSO.Logica;
-namespace ORUSCURSO.Datos
+using Sistema_de_asistencia.Logica;
+namespace Sistema_de_asistencia.Datos
 {
    public  class DatosUsuarios
     {

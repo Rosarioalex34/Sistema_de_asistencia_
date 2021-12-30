@@ -1,4 +1,4 @@
-﻿namespace ORUSCURSO.Presentacion
+﻿namespace Sistema_de_asistencia.Presentacion
 {
     partial class Personal
     {
@@ -129,7 +129,7 @@
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.btnAgregar.BackgroundImage = global::ORUSCURSO.Properties.Resources.mas1;
+            this.btnAgregar.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.mas1;
             this.btnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAgregar.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnAgregar.FlatAppearance.BorderSize = 0;
@@ -181,7 +181,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ORUSCURSO.Properties.Resources.buscar;
+            this.pictureBox1.Image = global::Sistema_de_asistencia.Properties.Resources.buscar;
             this.pictureBox1.Location = new System.Drawing.Point(312, 25);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(29, 26);
@@ -420,7 +420,7 @@
             // EditarC
             // 
             this.EditarC.HeaderText = "";
-            this.EditarC.Image = global::ORUSCURSO.Properties.Resources.editar;
+            this.EditarC.Image = global::Sistema_de_asistencia.Properties.Resources.editar;
             this.EditarC.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.EditarC.Name = "EditarC";
             this.EditarC.ReadOnly = true;
@@ -451,7 +451,7 @@
             // 
             // btnGuardarC
             // 
-            this.btnGuardarC.BackgroundImage = global::ORUSCURSO.Properties.Resources.verde;
+            this.btnGuardarC.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.verde;
             this.btnGuardarC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardarC.FlatAppearance.BorderSize = 0;
             this.btnGuardarC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -469,7 +469,7 @@
             // 
             // btnGuardarCambiosC
             // 
-            this.btnGuardarCambiosC.BackgroundImage = global::ORUSCURSO.Properties.Resources.verde;
+            this.btnGuardarCambiosC.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.verde;
             this.btnGuardarCambiosC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardarCambiosC.FlatAppearance.BorderSize = 0;
             this.btnGuardarCambiosC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -487,7 +487,7 @@
             // 
             // btnVolverCargos
             // 
-            this.btnVolverCargos.BackgroundImage = global::ORUSCURSO.Properties.Resources.hacia_atras1;
+            this.btnVolverCargos.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.hacia_atras1;
             this.btnVolverCargos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnVolverCargos.FlatAppearance.BorderSize = 0;
             this.btnVolverCargos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -566,7 +566,7 @@
             // 
             // btnVolverPersonal
             // 
-            this.btnVolverPersonal.BackgroundImage = global::ORUSCURSO.Properties.Resources.hacia_atras;
+            this.btnVolverPersonal.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.hacia_atras;
             this.btnVolverPersonal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnVolverPersonal.FlatAppearance.BorderSize = 0;
             this.btnVolverPersonal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -592,7 +592,7 @@
             // 
             // btnGuardarPersonal
             // 
-            this.btnGuardarPersonal.BackgroundImage = global::ORUSCURSO.Properties.Resources.verde;
+            this.btnGuardarPersonal.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.verde;
             this.btnGuardarPersonal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardarPersonal.FlatAppearance.BorderSize = 0;
             this.btnGuardarPersonal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -610,7 +610,7 @@
             // 
             // btnGuardarCambiosPersonal
             // 
-            this.btnGuardarCambiosPersonal.BackgroundImage = global::ORUSCURSO.Properties.Resources.verde;
+            this.btnGuardarCambiosPersonal.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.verde;
             this.btnGuardarCambiosPersonal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnGuardarCambiosPersonal.FlatAppearance.BorderSize = 0;
             this.btnGuardarCambiosPersonal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -809,7 +809,7 @@
             // dataGridViewImageColumn1
             // 
             this.dataGridViewImageColumn1.HeaderText = "";
-            this.dataGridViewImageColumn1.Image = global::ORUSCURSO.Properties.Resources.editar;
+            this.dataGridViewImageColumn1.Image = global::Sistema_de_asistencia.Properties.Resources.editar;
             this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             this.dataGridViewImageColumn1.ReadOnly = true;
@@ -817,7 +817,7 @@
             // dataGridViewImageColumn2
             // 
             this.dataGridViewImageColumn2.HeaderText = "";
-            this.dataGridViewImageColumn2.Image = global::ORUSCURSO.Properties.Resources.editar;
+            this.dataGridViewImageColumn2.Image = global::Sistema_de_asistencia.Properties.Resources.editar;
             this.dataGridViewImageColumn2.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             this.dataGridViewImageColumn2.ReadOnly = true;
@@ -825,7 +825,7 @@
             // dataGridViewImageColumn3
             // 
             this.dataGridViewImageColumn3.HeaderText = "";
-            this.dataGridViewImageColumn3.Image = global::ORUSCURSO.Properties.Resources.editar;
+            this.dataGridViewImageColumn3.Image = global::Sistema_de_asistencia.Properties.Resources.editar;
             this.dataGridViewImageColumn3.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
             this.dataGridViewImageColumn3.ReadOnly = true;
@@ -833,7 +833,7 @@
             // Eliminar
             // 
             this.Eliminar.HeaderText = "";
-            this.Eliminar.Image = global::ORUSCURSO.Properties.Resources.cerca11;
+            this.Eliminar.Image = global::Sistema_de_asistencia.Properties.Resources.cerca11;
             this.Eliminar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.ReadOnly = true;
@@ -841,7 +841,7 @@
             // Editar
             // 
             this.Editar.HeaderText = "";
-            this.Editar.Image = global::ORUSCURSO.Properties.Resources.lapiz1;
+            this.Editar.Image = global::Sistema_de_asistencia.Properties.Resources.lapiz1;
             this.Editar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Editar.Name = "Editar";
             this.Editar.ReadOnly = true;

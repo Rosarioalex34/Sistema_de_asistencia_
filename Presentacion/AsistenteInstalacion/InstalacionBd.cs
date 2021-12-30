@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-namespace ORUSCURSO.Presentacion.AsistenteInstalacion
+namespace Sistema_de_asistencia.Presentacion.AsistenteInstalacion
 {
     public partial class InstalacionBd : Form
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
-namespace ORUSCURSO.Datos
+namespace Sistema_de_asistencia.Datos
 {
    public class Conexion
     {

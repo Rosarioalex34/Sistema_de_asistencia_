@@ -1,4 +1,4 @@
-﻿namespace ORUSCURSO.Presentacion
+﻿namespace Sistema_de_asistencia.Presentacion
 {
     partial class ControlUsuarios
     {
@@ -470,7 +470,7 @@
             // dataGridViewImageColumn1
             // 
             this.dataGridViewImageColumn1.HeaderText = "";
-            this.dataGridViewImageColumn1.Image = global::ORUSCURSO.Properties.Resources.Eliminar;
+            this.dataGridViewImageColumn1.Image = global::Sistema_de_asistencia.Properties.Resources.Eliminar;
             this.dataGridViewImageColumn1.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             this.dataGridViewImageColumn1.ReadOnly = true;
@@ -478,7 +478,7 @@
             // dataGridViewImageColumn2
             // 
             this.dataGridViewImageColumn2.HeaderText = "";
-            this.dataGridViewImageColumn2.Image = global::ORUSCURSO.Properties.Resources.editar;
+            this.dataGridViewImageColumn2.Image = global::Sistema_de_asistencia.Properties.Resources.editar;
             this.dataGridViewImageColumn2.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             this.dataGridViewImageColumn2.ReadOnly = true;
@@ -486,7 +486,7 @@
             // dataGridViewImageColumn3
             // 
             this.dataGridViewImageColumn3.HeaderText = "";
-            this.dataGridViewImageColumn3.Image = global::ORUSCURSO.Properties.Resources.Eliminar;
+            this.dataGridViewImageColumn3.Image = global::Sistema_de_asistencia.Properties.Resources.Eliminar;
             this.dataGridViewImageColumn3.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
             this.dataGridViewImageColumn3.ReadOnly = true;
@@ -494,14 +494,14 @@
             // dataGridViewImageColumn4
             // 
             this.dataGridViewImageColumn4.HeaderText = "";
-            this.dataGridViewImageColumn4.Image = global::ORUSCURSO.Properties.Resources.editar;
+            this.dataGridViewImageColumn4.Image = global::Sistema_de_asistencia.Properties.Resources.editar;
             this.dataGridViewImageColumn4.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.dataGridViewImageColumn4.Name = "dataGridViewImageColumn4";
             this.dataGridViewImageColumn4.ReadOnly = true;
             // 
             // AgregarIconoPC
             // 
-            this.AgregarIconoPC.Image = global::ORUSCURSO.Properties.Resources.agregar;
+            this.AgregarIconoPC.Image = global::Sistema_de_asistencia.Properties.Resources.agregar;
             this.AgregarIconoPC.Location = new System.Drawing.Point(26, 413);
             this.AgregarIconoPC.Name = "AgregarIconoPC";
             this.AgregarIconoPC.Size = new System.Drawing.Size(168, 164);
@@ -512,7 +512,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::ORUSCURSO.Properties.Resources.avatar;
+            this.pictureBox3.Image = global::Sistema_de_asistencia.Properties.Resources.avatar;
             this.pictureBox3.Location = new System.Drawing.Point(3, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(168, 164);
@@ -523,7 +523,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::ORUSCURSO.Properties.Resources.avatar__1_;
+            this.pictureBox4.Image = global::Sistema_de_asistencia.Properties.Resources.avatar__1_;
             this.pictureBox4.Location = new System.Drawing.Point(177, 3);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(168, 164);
@@ -534,7 +534,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::ORUSCURSO.Properties.Resources.futbol_americano;
+            this.pictureBox5.Image = global::Sistema_de_asistencia.Properties.Resources.futbol_americano;
             this.pictureBox5.Location = new System.Drawing.Point(351, 3);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(168, 164);
@@ -545,7 +545,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::ORUSCURSO.Properties.Resources.detective;
+            this.pictureBox6.Image = global::Sistema_de_asistencia.Properties.Resources.detective;
             this.pictureBox6.Location = new System.Drawing.Point(525, 3);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(168, 164);
@@ -556,7 +556,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::ORUSCURSO.Properties.Resources.alien;
+            this.pictureBox7.Image = global::Sistema_de_asistencia.Properties.Resources.alien;
             this.pictureBox7.Location = new System.Drawing.Point(3, 3);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(168, 164);
@@ -567,7 +567,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::ORUSCURSO.Properties.Resources.perfil;
+            this.pictureBox8.Image = global::Sistema_de_asistencia.Properties.Resources.perfil;
             this.pictureBox8.Location = new System.Drawing.Point(177, 3);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(168, 164);
@@ -578,7 +578,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::ORUSCURSO.Properties.Resources.animal;
+            this.pictureBox9.Image = global::Sistema_de_asistencia.Properties.Resources.animal;
             this.pictureBox9.Location = new System.Drawing.Point(351, 3);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(168, 164);
@@ -589,7 +589,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::ORUSCURSO.Properties.Resources.super_nintendo;
+            this.pictureBox10.Image = global::Sistema_de_asistencia.Properties.Resources.super_nintendo;
             this.pictureBox10.Location = new System.Drawing.Point(525, 3);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(168, 164);
@@ -610,7 +610,7 @@
             // 
             // btnguardar
             // 
-            this.btnguardar.BackgroundImage = global::ORUSCURSO.Properties.Resources.verde;
+            this.btnguardar.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.verde;
             this.btnguardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnguardar.FlatAppearance.BorderSize = 0;
             this.btnguardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -628,7 +628,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.BackgroundImage = global::ORUSCURSO.Properties.Resources.verde;
+            this.btnActualizar.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.verde;
             this.btnActualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnActualizar.FlatAppearance.BorderSize = 0;
             this.btnActualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -646,7 +646,7 @@
             // 
             // btnvolver
             // 
-            this.btnvolver.BackgroundImage = global::ORUSCURSO.Properties.Resources.naranja;
+            this.btnvolver.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.naranja;
             this.btnvolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnvolver.FlatAppearance.BorderSize = 0;
             this.btnvolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -665,7 +665,7 @@
             // Eliminar
             // 
             this.Eliminar.HeaderText = "";
-            this.Eliminar.Image = global::ORUSCURSO.Properties.Resources.cerca;
+            this.Eliminar.Image = global::Sistema_de_asistencia.Properties.Resources.cerca;
             this.Eliminar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.ReadOnly = true;
@@ -673,7 +673,7 @@
             // Editar
             // 
             this.Editar.HeaderText = "";
-            this.Editar.Image = global::ORUSCURSO.Properties.Resources.lapiz;
+            this.Editar.Image = global::Sistema_de_asistencia.Properties.Resources.lapiz;
             this.Editar.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
             this.Editar.Name = "Editar";
             this.Editar.ReadOnly = true;
@@ -681,7 +681,7 @@
             // btnAgregar
             // 
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.btnAgregar.BackgroundImage = global::ORUSCURSO.Properties.Resources.mas2;
+            this.btnAgregar.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.mas2;
             this.btnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnAgregar.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnAgregar.FlatAppearance.BorderSize = 0;
@@ -695,7 +695,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ORUSCURSO.Properties.Resources.buscar__1_;
+            this.pictureBox1.Image = global::Sistema_de_asistencia.Properties.Resources.buscar__1_;
             this.pictureBox1.Location = new System.Drawing.Point(312, 25);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(29, 26);

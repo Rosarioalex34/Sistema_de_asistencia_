@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace ORUSCURSO.Logica
+namespace Sistema_de_asistencia.Logica
 {
     public class LogicaUsuarios
     {

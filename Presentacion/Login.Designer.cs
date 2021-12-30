@@ -1,4 +1,4 @@
-﻿namespace ORUSCURSO.Presentacion
+﻿namespace Sistema_de_asistencia.Presentacion
 {
     partial class Login
     {
@@ -86,7 +86,7 @@
             // 
             // PictureBox7
             // 
-            this.PictureBox7.Image = global::ORUSCURSO.Properties.Resources.MonoOrus2;
+            this.PictureBox7.Image = global::Sistema_de_asistencia.Properties.Resources.MonoOrus2;
             this.PictureBox7.Location = new System.Drawing.Point(110, 8);
             this.PictureBox7.Name = "PictureBox7";
             this.PictureBox7.Size = new System.Drawing.Size(71, 75);
@@ -179,7 +179,7 @@
             // btn0
             // 
             this.btn0.BackColor = System.Drawing.Color.Transparent;
-            this.btn0.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn0.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn0.FlatAppearance.BorderSize = 0;
@@ -201,7 +201,7 @@
             // btnborrarderecha
             // 
             this.btnborrarderecha.BackColor = System.Drawing.Color.Transparent;
-            this.btnborrarderecha.BackgroundImage = global::ORUSCURSO.Properties.Resources.verde;
+            this.btnborrarderecha.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.verde;
             this.btnborrarderecha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnborrarderecha.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnborrarderecha.FlatAppearance.BorderSize = 0;
@@ -221,7 +221,7 @@
             // btnborrartodo
             // 
             this.btnborrartodo.BackColor = System.Drawing.Color.Transparent;
-            this.btnborrartodo.BackgroundImage = global::ORUSCURSO.Properties.Resources.verde;
+            this.btnborrartodo.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.verde;
             this.btnborrartodo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnborrartodo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnborrartodo.FlatAppearance.BorderSize = 0;
@@ -259,7 +259,7 @@
             // btn3
             // 
             this.btn3.BackColor = System.Drawing.Color.Transparent;
-            this.btn3.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn3.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -280,7 +280,7 @@
             // btn2
             // 
             this.btn2.BackColor = System.Drawing.Color.Transparent;
-            this.btn2.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn2.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -301,7 +301,7 @@
             // btn1
             // 
             this.btn1.BackColor = System.Drawing.Color.Transparent;
-            this.btn1.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn1.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -322,7 +322,7 @@
             // btn6
             // 
             this.btn6.BackColor = System.Drawing.Color.Transparent;
-            this.btn6.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn6.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -343,7 +343,7 @@
             // btn5
             // 
             this.btn5.BackColor = System.Drawing.Color.Transparent;
-            this.btn5.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn5.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -364,7 +364,7 @@
             // btn4
             // 
             this.btn4.BackColor = System.Drawing.Color.Transparent;
-            this.btn4.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn4.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -385,7 +385,7 @@
             // btn9
             // 
             this.btn9.BackColor = System.Drawing.Color.Transparent;
-            this.btn9.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn9.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn9.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -406,7 +406,7 @@
             // btn8
             // 
             this.btn8.BackColor = System.Drawing.Color.Transparent;
-            this.btn8.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn8.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -427,7 +427,7 @@
             // btn7
             // 
             this.btn7.BackColor = System.Drawing.Color.Transparent;
-            this.btn7.BackgroundImage = global::ORUSCURSO.Properties.Resources.Rojo;
+            this.btn7.BackgroundImage = global::Sistema_de_asistencia.Properties.Resources.Rojo;
             this.btn7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn7.FlatAppearance.BorderColor = System.Drawing.Color.Black;

@@ -6,9 +6,9 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using ORUSCURSO.Logica;
-using ORUSCURSO.Datos;
-namespace ORUSCURSO.Presentacion
+using Sistema_de_asistencia.Logica;
+using Sistema_de_asistencia.Datos;
+namespace Sistema_de_asistencia.Presentacion
 {
     public partial class Personal : UserControl
     {

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Datos",
+    "\\Logica"
   ],
-  "SelectedNode": "\\ORUSCURSO.sln",
+  "SelectedNode": "\\Sistema de asistencia.sln",
   "PreviewInSolutionExplorer": false
 }
