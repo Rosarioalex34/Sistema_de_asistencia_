@@ -1,0 +1,60 @@
+E:\Proyectos en Csharp\ORUSCURSO\bin\Debug\ORUSCURSO.exe
+E:\Proyectos en Csharp\ORUSCURSO\bin\Debug\ORUSCURSO.pdb
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.csprojAssemblyReference.cache
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Properties.Resources.resources
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.GenerateResource.cache
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.CoreCompileInputs.cache
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.exe
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.pdb
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.MenuPrincipal.resources
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.Personal.resources
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.TomarAsistencias.resources
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.CtlUsuarios.resources
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.AsistenteInstalacion.ElecccionServidor.resources
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.AsistenteInstalacion.InstalacionBd.resources
+E:\Proyectos en Csharp\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.Login.resources
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\bin\Debug\ORUSCURSO.exe
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\bin\Debug\ORUSCURSO.pdb
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.AssemblyReference.cache
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.AsistenteInstalacion.ElecccionServidor.resources
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.AsistenteInstalacion.InstalacionBd.resources
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.Login.resources
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.MenuPrincipal.resources
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.Personal.resources
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.TomarAsistencias.resources
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.Properties.Resources.resources
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.GenerateResource.cache
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.CoreCompileInputs.cache
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.exe
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.pdb
+C:\Users\hiero\Downloads\Validacion+de+login (1)\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.ControlUsuarios.resources
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.AssemblyReference.cache
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.AsistenteInstalacion.ElecccionServidor.resources
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.AsistenteInstalacion.InstalacionBd.resources
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.ControlUsuarios.resources
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.Login.resources
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.MenuPrincipal.resources
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.Personal.resources
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.Presentacion.TomarAsistencias.resources
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.Properties.Resources.resources
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.GenerateResource.cache
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.csproj.CoreCompileInputs.cache
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.exe
+C:\Users\hiero\Desktop\ORUSCURSO\obj\Debug\ORUSCURSO.pdb
+C:\Users\hiero\Desktop\ORUSCURSO\bin\Debug\ORUSCURSO.exe
+C:\Users\hiero\Desktop\ORUSCURSO\bin\Debug\ORUSCURSO.pdb
+C:\Users\hiero\Desktop\pa modificar\bin\Debug\ORUSCURSO.exe
+C:\Users\hiero\Desktop\pa modificar\bin\Debug\ORUSCURSO.pdb
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\Sistema de asistencia.csproj.AssemblyReference.cache
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.Presentacion.AsistenteInstalacion.ElecccionServidor.resources
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.Presentacion.AsistenteInstalacion.InstalacionBd.resources
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.Presentacion.ControlUsuarios.resources
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.Presentacion.Login.resources
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.Presentacion.MenuPrincipal.resources
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.Presentacion.Personal.resources
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.Presentacion.TomarAsistencias.resources
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.Properties.Resources.resources
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\Sistema de asistencia.csproj.GenerateResource.cache
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\Sistema de asistencia.csproj.CoreCompileInputs.cache
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.exe
+C:\Users\hiero\Desktop\pa modificar\obj\Debug\ORUSCURSO.pdb
