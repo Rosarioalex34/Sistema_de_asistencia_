@@ -175,7 +175,7 @@ namespace Sistema_de_asistencia.Datos
 			{
 				int Iduser;
 				Conexion.abrir();
-				SqlCommand da = new SqlCommand("Select idUsuario From Usuarios", Conexion.con);
+				SqlCommand da = new SqlCommand("Select IdUsuarios From Usuarios", Conexion.con);
 				Iduser = Convert.ToInt32(da.ExecuteScalar());
 				Conexion.cerrar();
 				Indicador = "Correcto";
