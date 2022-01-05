@@ -62,7 +62,7 @@ namespace Sistema_de_asistencia.Presentacion
                     Panel p1 = new Panel();
                     PictureBox I1 = new PictureBox();
                     b.Text = rdr["Login"].ToString();
-                    b.Name = rdr["idUsuario"].ToString();
+                    b.Name = rdr["IdUsuarios"].ToString();
                     b.Size = new Size(175, 25);
                     b.Font = new Font("Microsoft Sans Serif", 13);
                     b.BackColor = Color.Transparent;
